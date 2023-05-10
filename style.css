@@ -5,11 +5,11 @@
 }
 
 :root {
-    --primaryColor: #483D8A;
+    --primaryColor: #034790;
 }
 
 body {
-    background: #020408;
+    background: #9ac5fd;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -34,7 +34,7 @@ a {
 p.username {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
-    color: #ffff;
+    color: #000000;
     
 }
 
@@ -56,7 +56,7 @@ ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffff;
+    color: #000000;
     font-weight: 580;
     background: #ffffff00;
     border: 3px solid var(--primaryColor);
@@ -72,8 +72,14 @@ footer {
     color: #ffff;
 }
 
+.site {
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 100px;
+}
+
 ul li a:hover {
-    background:#a998cdc0;
+    background:#3883f4c0;
     border: solid 2px #ffff;
     transition: 0.3s;
 
